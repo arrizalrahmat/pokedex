@@ -1,0 +1,59 @@
+.navbar {
+  background-color: #403B3B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+}
+
+.navbar-left {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+} 
+
+.container {
+  margin: 12px
+}
+
+.group-header {
+  background-color: lightgrey;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.group-header-inner {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.group-info {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.group-avatar {
+  width: 120px;
+  height: 120px;
+  background-color: #403B3B;
+  flex-shrink: 0;
+}
+
+.group-info h1 {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-bottom: 12px;
+}
+
+.group-details {
+  margin-bottom: 12;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  align-items: stretch;
+}

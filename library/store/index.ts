@@ -2,12 +2,14 @@ import {configureStore} from '@reduxjs/toolkit';
 import countReducer from './reducers/count';
 import stopwatchReducer from './reducers/stopwatch';
 import membersReducer from './reducers/members';
+import pokemonsReducer from './reducers/pokemons';
 
 export const store = configureStore({
   reducer: {
     count: countReducer,
     stopwatch: stopwatchReducer,
     members: membersReducer,
+    pokemons: pokemonsReducer,
   },
 });
 
